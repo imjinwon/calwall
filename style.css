@@ -1,0 +1,7 @@
+:root{--bg:#f7f8fa;--card:#fff;--fg:#202124;--dim:#5f6368;--acc:#1a73e8;--line:#e3e5e8}
+@media (prefers-color-scheme:dark){:root{--bg:#17181b;--card:#202124;--fg:#e8eaed;--dim:#9aa0a6;--acc:#8ab4f8;--line:#3c4043}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 "Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 20px 64px}nav{display:flex;gap:18px;margin-bottom:28px;font-size:15px}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}h1{font-size:30px;margin:0 0 6px}h2{font-size:20px;margin:34px 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:18px 0}.dim{color:var(--dim);font-size:14px}
+ul{padding-left:22px}li{margin:4px 0}code{background:var(--line);padding:1px 6px;border-radius:5px;font-size:14px}hr{border:0;border-top:1px solid var(--line);margin:40px 0}
